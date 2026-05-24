@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prosjekter – Emilie Moldestad</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">Emilie Moldestad</a>
+      <button class="hamburger" aria-label="Meny">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="projects.html">Prosjekter</a></li>
+        <li><a href="about.html">Om meg</a></li>
+        <li class="nav-cta"><a href="index.html#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <p class="section-label">Prosjekter</p>
+      <h1>Det jeg bygger</h1>
+      <p>Et utvalg av ting jeg jobber med — fra tidlige ideer til aktive verktøy.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Mapwise -->
+      <div class="card" id="mapwise">
+        <div class="card-icon">🗺️</div>
+        <div class="card-header">
+          <h3>Mapwise</h3>
+          <span class="badge badge-early">Tidlig stadie</span>
+        </div>
+        <p>
+          En crossover av Lucidspark og lysbildefremvisning. plattform for tankekart og presentasjoner — bygg ideer visuelt
+            og del dem som interaktive presentasjoner.
+        </p>
+        <p style="margin-top: 0.5rem;">
+        </p>
+        <a href="https://ki-kart.emoldestad.no" class="card-link"> Gå til demo: ki-kart.emoldestad.no</a>
+        <a href="https://github.com/emiilimi/mapwise" class="card-link"> GitHub-repo</a>
+      </div>
+
+      <!-- Bussforsinkelser -->
+      <div class="card" id="bussforsinkelser">
+        <div class="card-icon">🚌</div>
+        <div class="card-header">
+          <h3>Bussforsinkelser</h3>
+          <span class="badge badge-active">Under utvikling</span>
+        </div>
+        <p>
+          Viktig å nerde litt kollektivtransport også :)
+          Om du lurer på om du kommer til å nå frem i tide kan du benytte deg av min nye reiseplanlegger! Den tar utgangspunkt i empiriske sanntidsdata, gir deg sannsynligheten for at du rekker bussbyttet ditt, og et estimat for når du faktisk vil ankomme. 
+
+        </p>
+        <p style="margin-top: 0.5rem;">
+          Du kan også sjekke ut forsinkelseskartet, søke opp stopp, linjer eller avganger for å analysere din buss. 
+        </p>
+        <a href="https://bussforsinkelser.emoldestad.no" class="card-link">Gå til bussforsinkelser.emoldestad.no</a>
+        <!-- <a href="#" class="card-link">Se repoet på GitHub</a> -->
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">© 2026 Emilie Moldestad</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">
+          LinkedIn
+        </a>
+        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">
+          Substack
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
