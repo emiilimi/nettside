@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects – Emilie Moldestad</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index-en.html" class="nav-logo">Emilie Moldestad</a>
+      <ul class="nav-links">
+        <li><a href="index-en.html">Home</a></li>
+        <li><a href="projects-en.html">Projects</a></li>
+        <li><a href="about-en.html">About</a></li>
+        <li class="nav-cta"><a href="index-en.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="lang-toggle" onclick="switchLang('no')">NO</button>
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <p class="section-label">Projects</p>
+      <h1>What I'm building</h1>
+      <p>A selection of things I'm working on — from early ideas to active tools.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Mapwise -->
+      <div class="card" id="mapwise">
+        <div class="card-icon">🗺️</div>
+        <div class="card-header">
+          <h3>Mapwise</h3>
+          <span class="badge badge-early">Early stage</span>
+        </div>
+        <p>
+          A crossover between Lucidchart and a slideshow. A platform for mind maps and presentations — build ideas
+          visually and share them as interactive presentations.
+        </p>
+        <a href="https://ki-kart.emoldestad.no" target="_blank" rel="noopener" class="card-link">Go to demo: ki-kart.emoldestad.no</a>
+        <a href="https://github.com/emiilimi/mapwise" target="_blank" rel="noopener" class="card-link">GitHub repo</a>
+         <a href="https://mapwise.emoldestad.no" target="_blank" rel="noopener" class="card-link">Make your own map at mapwise.emoldestad.no (beta)</a>
+      </div>
+
+      <!-- Bus Delays -->
+      <div class="card" id="bussforsinkelser">
+        <div class="card-icon">🚌</div>
+        <div class="card-header">
+          <h3>Bus Delays</h3>
+          <span class="badge badge-active">In development</span>
+        </div>
+        <p>
+          Worth nerding out on public transport too :)
+          Wondering if you'll make your connection? Try my journey planner! It uses empirical real-time data to give you
+          the probability of making your transfer and an estimate of when you'll actually arrive.
+        </p>
+        <p style="margin-top: 0.5rem;">
+          You can also check the delay map, look up stops, lines or departures to analyse your bus.
+        </p>
+        <a href="https://bussforsinkelser.emoldestad.no" target="_blank" rel="noopener" class="card-link">Go to bussforsinkelser.emoldestad.no</a>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">© 2026 Emilie Moldestad</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">Substack</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

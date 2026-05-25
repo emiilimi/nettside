@@ -11,15 +11,18 @@
   <header>
     <nav>
       <a href="index.html" class="nav-logo">Emilie Moldestad</a>
-      <button class="hamburger" aria-label="Meny">
-        <span></span><span></span><span></span>
-      </button>
       <ul class="nav-links">
         <li><a href="index.html">Hjem</a></li>
         <li><a href="projects.html">Prosjekter</a></li>
         <li><a href="about.html">Om meg</a></li>
         <li class="nav-cta"><a href="index.html#contact">Kontakt</a></li>
       </ul>
+      <div class="nav-controls">
+        <button class="lang-toggle" onclick="switchLang('en')">EN</button>
+        <button class="hamburger" aria-label="Meny">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </nav>
   </header>
 
@@ -39,44 +42,30 @@
         </div>
 
         <div class="about-text">
-          <h2></h2>
           <p>
-            Det er litt merkelig å skulle sitte her og skrive min egen nettside. Men jeg prøver likevel, mest for min egen del, og for å prøve å være forbildet jeg trengte for et par år siden.</p>
-            <p>
-              Så hei! Jeg heter Emilie, jeg er 19 år, jeg ønsker meg en bedre verden, og jeg prøver å gjøre noe med det. 
-            </p>
-
-            <!-- <p> Jeg er mye forskjellig og bryr meg om mye forskjellig  </p>           
-          <ul>
-            <li>Jeg har i mange år vært en av de usynlige barna som egentlig trengte flere utfordringer.</li>
-
-            <li>Jeg har som mange andre forsøkt å "være normal" uten særlig suksess.</li>
-
-            <li>Jeg brenner for mangfold, inkludering og at vi kan møte hverandre med respekt.</li>
-            <li>Jeg drømmer om en verden og en fremtid der alle kan ha det bra.</li>
-            <p></p>
-
-          </ul> -->
+            Det er litt merkelig å skulle sitte her og skrive min egen nettside. Men jeg prøver likevel, mest for min egen del, og for å prøve å være forbildet jeg trengte for et par år siden.
+          </p>
           <p>
-            Summen av alt jeg lærte på skolen ble på mange måter at verden er komplisert, har mange problemer, vi oppfordres til å tenke kritisk og gjøre noe med det. Men om man ser på hva alle rundt seg gjør, kom jeg fram til at folk flest ikke gjør så mye med saken. ("Gjør som jeg sier, ikke som jeg gjør") At det var livet jeg hadde foran meg, når vi da attpåtil lever i et av verdens rikeste land og aktivt bidrar til å forverre fremtiden, var ikke noe jeg ville akseptere. 
+            Så hei! Jeg heter Emilie, jeg er 19 år, jeg ønsker meg en bedre verden, og jeg prøver å gjøre noe med det.
+          </p>
+          <p>
+            Summen av alt jeg lærte på skolen ble på mange måter at verden er komplisert, har mange problemer, vi oppfordres til å tenke kritisk og gjøre noe med det. Men om man ser på hva alle rundt seg gjør, kom jeg fram til at folk flest ikke gjør så mye med saken. ("Gjør som jeg sier, ikke som jeg gjør") At det var livet jeg hadde foran meg, når vi da attpåtil lever i et av verdens rikeste land og aktivt bidrar til å forverre fremtiden, var ikke noe jeg ville akseptere.
           </p>
           <p>
             Dette har ledet meg til engasjement i DNT, NIO, EA, NU, GU, MGD og flere bokstavkombinasjoner mamma mister oversikten over. Altså: Den Norske Turistforening, Norsk Informatikkolympiade, Effektiv Altruisme, Natur og Ungdom, Miljøpartiet de Grønne, Grønn Ungdom, samt KI Ungdom og Tryggere KI.
           </p>
-          
           <p>
-            Jeg sikter på en karriere der jeg virkelig kan  <a href="https://www.bt.no/btmeninger/debatt/i/Exw8pa/emilie-19-jeg-vil-bli-fornoeyd-ikke-ha-jobben-med-best-loenn" target="_blank">gjøre en forskjell</a>  - men vet ikke hvordan den vil se ut ennå. 
-            Jeg har også tatt <link rel="stylesheet" href=""> <a href="https://www.givingwhatwecan.org/pledge" target="_blank">The Pledge</a> og vil fortsette å donere 10% av inntekten min til effektive bistandsorganisasjoner.       
+            Jeg sikter på en karriere der jeg virkelig kan <a href="https://www.bt.no/btmeninger/debatt/i/Exw8pa/emilie-19-jeg-vil-bli-fornoeyd-ikke-ha-jobben-med-best-loenn" target="_blank">gjøre en forskjell</a> — men vet ikke hvordan den vil se ut ennå.
+            Jeg har også tatt <a href="https://www.givingwhatwecan.org/pledge" target="_blank">The Pledge</a> og vil fortsette å donere 10% av inntekten min til effektive bistandsorganisasjoner.
           </p>
           <p>
-            For øyeblikket fokuserer jeg på kunstig intelligens - teknologien som etter min mening kan definere fremtiden vår. (mer kommer...)
-
-            Ta gjerne kontakt om du vil snakke meg om hva nå enn det skulle være. 
+            For øyeblikket fokuserer jeg på kunstig intelligens — teknologien som etter min mening kan definere fremtiden vår. (mer kommer...)
+            Ta gjerne kontakt om du vil snakke med meg om hva nå enn det skulle være.
           </p>
 <!-- Artikler jeg burde skrive:
  - Mitt standpunkt på kunstig intelligens
  - Effektiv altruisme basics til framtida.no
-  -->
+-->
           <div style="margin-top: 1.75rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <a href="index.html#contact" class="btn btn-primary">Ta kontakt</a>
             <a href="projects.html" class="btn btn-outline">Mine prosjekter</a>
@@ -92,12 +81,8 @@
     <div class="footer-inner">
       <span class="footer-copy">© 2026 Emilie Moldestad</span>
       <div class="footer-links">
-        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">
-          LinkedIn
-        </a>
-        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">
-          Substack
-        </a>
+        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">Substack</a>
       </div>
     </div>
   </footer>

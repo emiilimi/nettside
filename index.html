@@ -11,15 +11,18 @@
   <header>
     <nav>
       <a href="index.html" class="nav-logo">Emilie Moldestad</a>
-      <button class="hamburger" aria-label="Meny">
-        <span></span><span></span><span></span>
-      </button>
       <ul class="nav-links">
         <li><a href="index.html">Hjem</a></li>
         <li><a href="projects.html">Prosjekter</a></li>
         <li><a href="about.html">Om meg</a></li>
         <li class="nav-cta"><a href="#contact">Kontakt</a></li>
       </ul>
+      <div class="nav-controls">
+        <button class="lang-toggle" onclick="switchLang('en')">EN</button>
+        <button class="hamburger" aria-label="Meny">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </nav>
   </header>
 
@@ -27,25 +30,23 @@
 
     <!-- HERO -->
     <section class="hero">
-      
-      <h1> <span>Hei!</span></h1>
+      <h1><span>Hei!</span></h1>
       <p>
-         Jeg er Emilie Moldestad, 19, drømmer om en bedre verden og prøver å faktisk gjøre noe med det.
+        Jeg er Emilie Moldestad, 19, drømmer om en bedre verden og prøver å faktisk gjøre noe med det.
       </p>
-      <p> Også liker jeg å lage saker og ting. Plutselig hadde jeg mange nok prosjekter til at en nettside må til. </p> 
-  
+      <p>Også liker jeg å lage saker og ting. Plutselig hadde jeg mange nok prosjekter til at en nettside må til.</p>
       <div class="hero-actions">
         <a href="projects.html" class="btn btn-primary">Se prosjekter</a>
-        <a href="about.html" class="btn btn-outline"> Mer om meg</a>
+        <a href="about.html" class="btn btn-outline">Mer om meg</a>
       </div>
     </section>
 
     <hr class="divider" />
 
-    <!-- FEATURED PROJECTS -->
+    <!-- PROSJEKTER -->
     <section>
       <p class="section-label">Utvalgte prosjekter</p>
-      <h2> Vibe coding...</h2>
+      <h2>Vibe coding...</h2>
       <div class="projects-grid">
 
         <div class="card">
@@ -68,7 +69,7 @@
             <span class="badge badge-active">Under utvikling</span>
           </div>
           <p>
-            Omfattende analyseverktøy for bussforsinkelser - utforsk mønstre,
+            Omfattende analyseverktøy for bussforsinkelser — utforsk mønstre,
             ruter og tidspunkt i historiske sanntidsdata.
           </p>
           <a href="projects.html#bussforsinkelser" class="card-link">Les mer →</a>
@@ -77,37 +78,34 @@
       </div>
     </section>
 
+    <!-- ANDRE TING -->
     <section>
       <p class="section-label"> </p>
       <h2>Andre artige saker</h2>
       <div class="projects-grid">
 
         <div class="card">
-          <p class="purple-label">Leserinnlegg BT 15.02 </p>
+          <p class="purple-label">Leserinnlegg BT 15.02</p>
           <div class="card-header">
-            <h3> Når drømmejobben ikke finnes - må man tenke litt større?</h3>
+            <h3>Når drømmejobben ikke finnes — må man tenke litt større?</h3>
           </div>
-          <p>
-            Vi blir ikke lykkeligere av å ønske oss mer. Er det vår generasjon eller samfunnet som er problemet?
-          </p>
-          <a href="https://www.bt.no/btmeninger/debatt/i/Exw8pa/emilie-19-jeg-vil-bli-fornoeyd-ikke-ha-jobben-med-best-loenn" class="card-link">Les innlegget (bt.no)</a>
+          <p>Vi blir ikke lykkeligere av å ønske oss mer. Er det vår generasjon eller samfunnet som er problemet?</p>
+          <a href="https://www.bt.no/btmeninger/debatt/i/Exw8pa/emilie-19-jeg-vil-bli-fornoeyd-ikke-ha-jobben-med-best-loenn" target="_blank" rel="noopener" class="card-link">Les innlegget (bt.no)</a>
         </div>
 
         <div class="card">
-           <p class="purple-label"> Innsamlingsaksjon</p>
+          <p class="purple-label">Innsamlingsaksjon</p>
           <div class="card-header">
             <h3>Gi Effektivt: Emilie sin innsamling til effektiv bistand</h3>
           </div>
-          <p>
-            
-          </p>
-          <a href="https://gieffektivt.no/innsamling/til-effektiv-bistand" class="card-link">Les mer →</a>
+          <p></p>
+          <a href="https://gieffektivt.no/innsamling/til-effektiv-bistand" target="_blank" rel="noopener" class="card-link">Les mer →</a>
         </div>
 
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- KONTAKT -->
     <section id="contact">
       <p class="section-label">Kontakt</p>
       <div class="contact-inner">
@@ -133,12 +131,8 @@
     <div class="footer-inner">
       <span class="footer-copy">© 2026 Emilie Moldestad</span>
       <div class="footer-links">
-        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">
-          LinkedIn
-        </a>
-        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">
-          Substack
-        </a>
+        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">Substack</a>
       </div>
     </div>
   </footer>
