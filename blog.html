@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skriverier – Emilie Moldestad</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">Emilie Moldestad</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="projects.html">Prosjekter</a></li>
+        <li><a href="blog.html">Blogg</a></li>
+        <li><a href="about.html">Om meg</a></li>
+        <li class="nav-cta"><a href="index.html#contact">Kontakt</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="lang-toggle" onclick="switchLang('en')">EN</button>
+        <button class="hamburger" aria-label="Meny">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <p class="section-label">Skriverier</p>
+      <h1>Det jeg skriver</h1>
+      <p>Essays, meningsinnlegg og tanker — samlet på ett sted.</p>
+    </div>
+
+    <div class="blog-grid">
+
+      <!-- Legg til nye innlegg øverst -->
+
+      <a href="posts/drommejobben.html" class="blog-card">
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <div class="post-tags">
+              <span class="post-tag">essay</span>
+              <span class="post-tag">karriere</span>
+              <span class="post-tag">bt.no</span>
+            </div>
+            <span class="blog-date">15. februar 2025</span>
+          </div>
+          <h3>Når drømmejobben ikke finnes — må man tenke litt større?</h3>
+          <p>Vi blir ikke lykkeligere av å ønske oss mer. Er det vår generasjon eller samfunnet som er problemet?</p>
+        </div>
+        <span class="blog-card-arrow">→</span>
+      </a>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">© 2026 Emilie Moldestad</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/emilie-moldestad-8a797438b" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+        <a href="https://substack.com/@emiliemoldestad" target="_blank" rel="noopener" class="footer-link">Substack</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
